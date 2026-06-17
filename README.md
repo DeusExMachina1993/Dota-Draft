@@ -1,6 +1,6 @@
 # DOTA-Draft: A Dataset for In-Game Recommendation in Multiplayer Online Battle Arenas
 
-This repository contains the **DOTA-Draft** dataset and benchmark scripts introduced in the paper:
+This repository contains the **DOTA-Draft** dataset introduced in the paper:
 
 > Mohammadnejad, M., Dorrigiv, M., & Yaghmaee, F. (2026). *DOTA-Draft: A Dataset for In-Game Recommendation in Multiplayer Online Battle Arenas*. Journal of AI and Data Mining.
 
