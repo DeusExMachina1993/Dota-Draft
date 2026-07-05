@@ -2,7 +2,7 @@
 
 This repository contains the **DOTA-Draft** dataset introduced in the paper:
 
-> Mohammadnejad, M., Dorrigiv, M., & Yaghmaee, F. (2026). *DOTA-Draft: A Dataset for In-Game Recommendation in Multiplayer Online Battle Arenas*. Journal of AI and Data Mining.
+anonymous.4open.science
 
 Research in recommender systems has largely relied on standardized datasets such as MovieLens, Amazon Reviews, and Last.fm. However, these datasets are not designed for **in-game recommendation**, particularly in complex Multiplayer Online Battle Arena (MOBA) environments where recommendations must account for sequential, team-based, and adversarial decision-making.
 
@@ -51,21 +51,10 @@ DOTA-Draft highlights several challenges unique to in-game recommendation:
 If you use this dataset in your research, please cite:
 
 ```bibtex
-@article{mohammadnejad2026dotadraft,
-  author = {Mohammadnejad, Mohammadreza and Dorrigiv, Morteza and Yaghmaee, Farzin},
-  title = {DOTA-Draft: A Dataset for In-Game Recommendation in Multiplayer Online Battle Arenas},
-  journal = {Journal of AI and Data Mining},
-  year = {2026},
-  pages = {-},
-  publisher = {Shahrood University of Technology},
-  issn = {2322-5211},
-  eissn = {2322-4444},
-  doi = {10.22044/jadm.2026.16888.2819},
-  url = {https://jad.shahroodut.ac.ir/article_3801.html}
-}
+anonymous.4open.science
 ```
 
-**DOI:** https://doi.org/10.22044/jadm.2026.16888.2819
+**DOI:** anonymous.4open.science
 
 ## 📬 Contact
 
