@@ -60,4 +60,4 @@ anonymous.4open.science
 
 For academic correspondence:
 
-📧 [mreza.mohammadnejad@semnan.ac.ir](mailto:mreza.mohammadnejad@semnan.ac.ir)
+📧anonymous.4open.science
