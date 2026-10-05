@@ -46,6 +46,34 @@ DOTA-Draft highlights several challenges unique to in-game recommendation:
 
 **Format:** RecBole-compatible dataset files and preprocessing scripts.
 
+<!-- DATASET-STATS:START -->
+## 📦 Dataset versions and coverage
+
+The dataset is updated monthly from the [Kaggle source](https://www.kaggle.com/datasets/bwandowando/dota-2-pro-league-matches-2023). Each year has its own folder, in RecBole format:
+
+```
+<year>/all_patches/all_patches.inter   all matches of that year
+<year>/patch_<id>/patch_<id>.inter     one patch (patch ids are OpenDota ids, e.g. 59 = 7.40)
+<year>/STATS.md, <year>/stats.json     statistics
+```
+
+**Data through:** 2026-08-31 · **Last match:** 2026-08-31 22:41 UTC · **Kaggle snapshot:** 2026-09-14 · **Release:** v2026.08
+
+| Year | From | Through | Matches | Interactions | Patches |
+|---|---|---|---|---|---|
+| [2024](2024/STATS.md) | 2024-01-01 | 2024-12-31 | 29,327 | 703,848 | 54, 55, 56 |
+| [2025](2025/STATS.md) | 2025-01-01 | 2025-12-31 | 29,793 | 715,032 | 56, 57, 58, 59 |
+| [2026](2026/STATS.md) | 2026-01-01 | 2026-08-31 | 13,983 | 335,592 | 59, 60 |
+
+Total (schema v2 folders): 73,103 matches, 1,754,472 interactions.
+
+**Schema v2** (year folders): `user_id` = `<match_id>_<team>` (stable everywhere), `item_id` = real hero id, `hero_action` = `hero_<hero_id>_<pick|ban>`, plus `start_time` (unix seconds). Only full Captains Mode drafts (24 actions) are kept. Matches that the source labels with a patch released after the match started are relabelled to the patch current at that time (counted in each year's STATS.md).
+
+**Schema v1** ([`paper-v1/`](paper-v1)) holds the exact files used in the paper: `all_patches/` and `patch_54`–`patch_56/` hold 2024 matches, `patch_57`–`patch_59/` hold 2025 matches. In v1 `user_id` is a per-file counter and `item_id`/`hero_action` use `hero_id + 1`. They are kept unchanged; to reproduce the paper use `data_path: ./paper-v1`.
+
+See [CHANGELOG.md](CHANGELOG.md) for release notes and [STATS.md](STATS.md) for statistics.
+<!-- DATASET-STATS:END -->
+
 ## 📌 Citation
 
 If you use this dataset in your research, please cite:

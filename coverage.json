@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "kaggle_ref": "bwandowando/dota-2-pro-league-matches-2023",
+  "kaggle_snapshot": "2026-09-14T01:51:44",
+  "data_through": "2026-08-31",
+  "last_match": "2026-08-31 22:41",
+  "last_release": "v2026.08",
+  "periods": {
+    "2024": {
+      "year": 2024,
+      "signature": {
+        "main_metadata.csv": 10837524,
+        "picks_bans.csv": 21544863
+      },
+      "complete": true,
+      "matches": 29327,
+      "last_match": "2024-12-31 23:26"
+    },
+    "2025": {
+      "year": 2025,
+      "signature": {
+        "main_metadata.csv": 10920888,
+        "picks_bans.csv": 21921903
+      },
+      "complete": true,
+      "matches": 29793,
+      "last_match": "2025-12-31 23:40"
+    },
+    "202601": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 975878,
+        "picks_bans.csv": 1937067
+      },
+      "complete": true,
+      "matches": 2650,
+      "last_match": "2026-01-31 21:58"
+    },
+    "202602": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 786927,
+        "picks_bans.csv": 1573325
+      },
+      "complete": true,
+      "matches": 2153,
+      "last_match": "2026-02-28 23:12"
+    },
+    "202603": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 884838,
+        "picks_bans.csv": 1744720
+      },
+      "complete": true,
+      "matches": 2381,
+      "last_match": "2026-03-31 23:35"
+    },
+    "202604": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 893343,
+        "picks_bans.csv": 1810521
+      },
+      "complete": true,
+      "matches": 2470,
+      "last_match": "2026-04-30 23:32"
+    },
+    "202605": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 858341,
+        "picks_bans.csv": 1721284
+      },
+      "complete": true,
+      "matches": 2351,
+      "last_match": "2026-05-31 22:15"
+    },
+    "202606": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 338287,
+        "picks_bans.csv": 661073
+      },
+      "complete": true,
+      "matches": 905,
+      "last_match": "2026-06-28 17:21"
+    },
+    "202607": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 148357,
+        "picks_bans.csv": 306552
+      },
+      "complete": true,
+      "matches": 420,
+      "last_match": "2026-07-31 23:20"
+    },
+    "202608": {
+      "year": 2026,
+      "signature": {
+        "main_metadata.csv": 229541,
+        "picks_bans.csv": 480208
+      },
+      "complete": true,
+      "matches": 653,
+      "last_match": "2026-08-31 22:41"
+    }
+  },
+  "years": {
+    "2024": {
+      "matches": 29327,
+      "interactions": 703848,
+      "first_match": "2024-01-01 00:24",
+      "last_match": "2024-12-31 23:26"
+    },
+    "2025": {
+      "matches": 29793,
+      "interactions": 715032,
+      "first_match": "2025-01-01 00:09",
+      "last_match": "2025-12-31 23:40"
+    },
+    "2026": {
+      "matches": 13983,
+      "interactions": 335592,
+      "first_match": "2026-01-01 00:16",
+      "last_match": "2026-08-31 22:41"
+    }
+  }
+}

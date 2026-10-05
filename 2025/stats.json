@@ -1,0 +1,178 @@
+{
+  "year": 2025,
+  "schema_version": 2,
+  "periods": [
+    "2025"
+  ],
+  "first_match": "2025-01-01 00:09",
+  "last_match": "2025-12-31 23:40",
+  "matches": 29793,
+  "team_drafts": 59586,
+  "interactions": 715032,
+  "picks": 297930,
+  "bans": 417102,
+  "heroes": 126,
+  "radiant_win_rate": 0.519,
+  "patches": [
+    {
+      "patch": 56,
+      "version": "7.37",
+      "matches": 4561
+    },
+    {
+      "patch": 57,
+      "version": "7.38",
+      "matches": 6912
+    },
+    {
+      "patch": 58,
+      "version": "7.39",
+      "matches": 17309
+    },
+    {
+      "patch": 59,
+      "version": "7.40",
+      "matches": 1011
+    }
+  ],
+  "matches_per_month": {
+    "2025-01": 2936,
+    "2025-02": 2306,
+    "2025-03": 2226,
+    "2025-04": 2394,
+    "2025-05": 2196,
+    "2025-06": 2310,
+    "2025-07": 2599,
+    "2025-08": 2592,
+    "2025-09": 2871,
+    "2025-10": 2926,
+    "2025-11": 2365,
+    "2025-12": 2072
+  },
+  "top_picks": [
+    {
+      "hero": "Rubick",
+      "count": 6515,
+      "rate": 0.2187
+    },
+    {
+      "hero": "Tiny",
+      "count": 5816,
+      "rate": 0.1952
+    },
+    {
+      "hero": "Jakiro",
+      "count": 5491,
+      "rate": 0.1843
+    },
+    {
+      "hero": "Shadow Fiend",
+      "count": 5196,
+      "rate": 0.1744
+    },
+    {
+      "hero": "Ogre Magi",
+      "count": 5000,
+      "rate": 0.1678
+    },
+    {
+      "hero": "Queen of Pain",
+      "count": 4972,
+      "rate": 0.1669
+    },
+    {
+      "hero": "Tusk",
+      "count": 4642,
+      "rate": 0.1558
+    },
+    {
+      "hero": "Pudge",
+      "count": 4624,
+      "rate": 0.1552
+    },
+    {
+      "hero": "Mars",
+      "count": 4563,
+      "rate": 0.1532
+    },
+    {
+      "hero": "Dragon Knight",
+      "count": 4537,
+      "rate": 0.1523
+    }
+  ],
+  "top_bans": [
+    {
+      "hero": "Nature's Prophet",
+      "count": 10482,
+      "rate": 0.3518
+    },
+    {
+      "hero": "Queen of Pain",
+      "count": 9642,
+      "rate": 0.3236
+    },
+    {
+      "hero": "Puck",
+      "count": 9435,
+      "rate": 0.3167
+    },
+    {
+      "hero": "Marci",
+      "count": 8552,
+      "rate": 0.287
+    },
+    {
+      "hero": "Beastmaster",
+      "count": 8119,
+      "rate": 0.2725
+    },
+    {
+      "hero": "Templar Assassin",
+      "count": 7900,
+      "rate": 0.2652
+    },
+    {
+      "hero": "Abaddon",
+      "count": 7445,
+      "rate": 0.2499
+    },
+    {
+      "hero": "Windranger",
+      "count": 7432,
+      "rate": 0.2495
+    },
+    {
+      "hero": "Pangolier",
+      "count": 7289,
+      "rate": 0.2447
+    },
+    {
+      "hero": "Dawnbreaker",
+      "count": 6617,
+      "rate": 0.2221
+    }
+  ],
+  "filtering": {
+    "raw_matches": 30178,
+    "kept_matches": 29793,
+    "dropped_wrong_draft_length": {
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 10,
+      "15": 22,
+      "16": 41,
+      "17": 59,
+      "18": 57,
+      "19": 39,
+      "20": 10,
+      "21": 13,
+      "22": 12,
+      "23": 119
+    },
+    "dropped_no_metadata": 0,
+    "unknown_hero_ids": [],
+    "patch_label_fixes": {}
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "year": 2024,
+  "schema_version": 2,
+  "periods": [
+    "2024"
+  ],
+  "first_match": "2024-01-01 00:24",
+  "last_match": "2024-12-31 23:26",
+  "matches": 29327,
+  "team_drafts": 58654,
+  "interactions": 703848,
+  "picks": 293270,
+  "bans": 410578,
+  "heroes": 124,
+  "radiant_win_rate": 0.5085,
+  "patches": [
+    {
+      "patch": 54,
+      "version": "7.35",
+      "matches": 11920
+    },
+    {
+      "patch": 55,
+      "version": "7.36",
+      "matches": 6057
+    },
+    {
+      "patch": 56,
+      "version": "7.37",
+      "matches": 11350
+    }
+  ],
+  "matches_per_month": {
+    "2024-01": 2967,
+    "2024-02": 2298,
+    "2024-03": 2927,
+    "2024-04": 2145,
+    "2024-05": 2365,
+    "2024-06": 2593,
+    "2024-07": 2351,
+    "2024-08": 2389,
+    "2024-09": 2499,
+    "2024-10": 2253,
+    "2024-11": 2521,
+    "2024-12": 2019
+  },
+  "top_picks": [
+    {
+      "hero": "Rubick",
+      "count": 8150,
+      "rate": 0.2779
+    },
+    {
+      "hero": "Luna",
+      "count": 5927,
+      "rate": 0.2021
+    },
+    {
+      "hero": "Tiny",
+      "count": 5910,
+      "rate": 0.2015
+    },
+    {
+      "hero": "Dragon Knight",
+      "count": 5414,
+      "rate": 0.1846
+    },
+    {
+      "hero": "Crystal Maiden",
+      "count": 5376,
+      "rate": 0.1833
+    },
+    {
+      "hero": "Hoodwink",
+      "count": 5132,
+      "rate": 0.175
+    },
+    {
+      "hero": "Vengeful Spirit",
+      "count": 4988,
+      "rate": 0.1701
+    },
+    {
+      "hero": "Windranger",
+      "count": 4941,
+      "rate": 0.1685
+    },
+    {
+      "hero": "Pudge",
+      "count": 4920,
+      "rate": 0.1678
+    },
+    {
+      "hero": "Lion",
+      "count": 4872,
+      "rate": 0.1661
+    }
+  ],
+  "top_bans": [
+    {
+      "hero": "Windranger",
+      "count": 10231,
+      "rate": 0.3489
+    },
+    {
+      "hero": "Pangolier",
+      "count": 9495,
+      "rate": 0.3238
+    },
+    {
+      "hero": "Winter Wyvern",
+      "count": 8999,
+      "rate": 0.3069
+    },
+    {
+      "hero": "Phoenix",
+      "count": 8472,
+      "rate": 0.2889
+    },
+    {
+      "hero": "Timbersaw",
+      "count": 8175,
+      "rate": 0.2788
+    },
+    {
+      "hero": "Doom",
+      "count": 7874,
+      "rate": 0.2685
+    },
+    {
+      "hero": "Puck",
+      "count": 7121,
+      "rate": 0.2428
+    },
+    {
+      "hero": "Shadow Fiend",
+      "count": 7035,
+      "rate": 0.2399
+    },
+    {
+      "hero": "Shadow Demon",
+      "count": 6840,
+      "rate": 0.2332
+    },
+    {
+      "hero": "Dragon Knight",
+      "count": 6838,
+      "rate": 0.2332
+    }
+  ],
+  "filtering": {
+    "raw_matches": 29707,
+    "kept_matches": 29327,
+    "dropped_wrong_draft_length": {
+      "1": 2,
+      "2": 1,
+      "6": 1,
+      "9": 1,
+      "10": 14,
+      "11": 14,
+      "12": 11,
+      "13": 24,
+      "14": 42,
+      "15": 37,
+      "16": 70,
+      "17": 26,
+      "18": 5,
+      "19": 3,
+      "20": 7,
+      "21": 4,
+      "22": 8,
+      "23": 110
+    },
+    "dropped_no_metadata": 0,
+    "unknown_hero_ids": [],
+    "patch_label_fixes": {
+      "57->56": 643
+    }
+  }
+}
