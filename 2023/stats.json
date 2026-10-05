@@ -1,0 +1,324 @@
+{
+  "year": 2023,
+  "schema_version": "2.1",
+  "periods": [
+    "2023"
+  ],
+  "first_match": "2023-01-01 08:02",
+  "last_match": "2023-12-31 23:36",
+  "matches": 29453,
+  "team_drafts": 58906,
+  "interactions": 706872,
+  "picks": 294530,
+  "bans": 412342,
+  "heroes": 124,
+  "radiant_win_rate": 0.5046,
+  "patches": [
+    {
+      "patch": 51,
+      "version": "7.32",
+      "matches": 9514,
+      "source_matches": 9660,
+      "completeness": 0.9849,
+      "draft_format": "cm24_7.30"
+    },
+    {
+      "patch": 52,
+      "version": "7.33",
+      "matches": 9273,
+      "source_matches": 9352,
+      "completeness": 0.9916,
+      "draft_format": "cm24_7.30, cm24_7.34"
+    },
+    {
+      "patch": 53,
+      "version": "7.34",
+      "matches": 9794,
+      "source_matches": 9915,
+      "completeness": 0.9878,
+      "draft_format": "cm24_7.34"
+    },
+    {
+      "patch": 54,
+      "version": "7.35",
+      "matches": 872,
+      "source_matches": 883,
+      "completeness": 0.9875,
+      "draft_format": "cm24_7.34"
+    }
+  ],
+  "draft_formats": {
+    "cm24_7.30": 18786,
+    "cm24_7.34": 10667
+  },
+  "hero_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    119,
+    120,
+    121,
+    123,
+    126,
+    128,
+    129,
+    135,
+    136,
+    137,
+    138
+  ],
+  "new_heroes": [
+    "Muerta"
+  ],
+  "matches_per_month": {
+    "2023-01": 2532,
+    "2023-02": 2671,
+    "2023-03": 2555,
+    "2023-04": 2670,
+    "2023-05": 2406,
+    "2023-06": 2755,
+    "2023-07": 2624,
+    "2023-08": 2444,
+    "2023-09": 2177,
+    "2023-10": 1971,
+    "2023-11": 2845,
+    "2023-12": 1803
+  },
+  "top_picks": [
+    {
+      "hero": "Rubick",
+      "count": 9889,
+      "rate": 0.3358
+    },
+    {
+      "hero": "Ember Spirit",
+      "count": 5287,
+      "rate": 0.1795
+    },
+    {
+      "hero": "Tusk",
+      "count": 5241,
+      "rate": 0.1779
+    },
+    {
+      "hero": "Snapfire",
+      "count": 4972,
+      "rate": 0.1688
+    },
+    {
+      "hero": "Spirit Breaker",
+      "count": 4968,
+      "rate": 0.1687
+    },
+    {
+      "hero": "Undying",
+      "count": 4912,
+      "rate": 0.1668
+    },
+    {
+      "hero": "Crystal Maiden",
+      "count": 4894,
+      "rate": 0.1662
+    },
+    {
+      "hero": "Skywrath Mage",
+      "count": 4660,
+      "rate": 0.1582
+    },
+    {
+      "hero": "Disruptor",
+      "count": 4514,
+      "rate": 0.1533
+    },
+    {
+      "hero": "Pangolier",
+      "count": 4431,
+      "rate": 0.1504
+    }
+  ],
+  "top_bans": [
+    {
+      "hero": "Slark",
+      "count": 9758,
+      "rate": 0.3313
+    },
+    {
+      "hero": "Primal Beast",
+      "count": 8993,
+      "rate": 0.3053
+    },
+    {
+      "hero": "Pangolier",
+      "count": 8137,
+      "rate": 0.2763
+    },
+    {
+      "hero": "Outworld Devourer",
+      "count": 7646,
+      "rate": 0.2596
+    },
+    {
+      "hero": "Ember Spirit",
+      "count": 7389,
+      "rate": 0.2509
+    },
+    {
+      "hero": "Beastmaster",
+      "count": 7242,
+      "rate": 0.2459
+    },
+    {
+      "hero": "Monkey King",
+      "count": 7199,
+      "rate": 0.2444
+    },
+    {
+      "hero": "Bloodseeker",
+      "count": 7181,
+      "rate": 0.2438
+    },
+    {
+      "hero": "Batrider",
+      "count": 6965,
+      "rate": 0.2365
+    },
+    {
+      "hero": "Naga Siren",
+      "count": 6937,
+      "rate": 0.2355
+    }
+  ],
+  "filtering": {
+    "raw_matches": 29643,
+    "kept_matches": 29453,
+    "dropped_unknown_format_by_actions": {
+      "10": 22,
+      "11": 11,
+      "12": 11,
+      "13": 3,
+      "14": 19,
+      "15": 4,
+      "16": 3,
+      "17": 2,
+      "18": 1,
+      "19": 1,
+      "20": 3,
+      "21": 1,
+      "22": 3,
+      "23": 106
+    },
+    "dropped_no_metadata": 0,
+    "unknown_hero_ids": [],
+    "patch_label_fixes": {}
+  }
+}

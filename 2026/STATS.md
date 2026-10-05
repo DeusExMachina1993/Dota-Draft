@@ -1,6 +1,6 @@
 # DOTA-Draft 2026 — statistics
 
-Schema v2 · Kaggle periods: 202601, 202602, 202603, 202604, 202605, 202606, 202607, 202608
+Schema v2.1 · Kaggle periods: 202601, 202602, 202603, 202604, 202605, 202606, 202607, 202608
 
 | Metric | Value |
 |---|---|
@@ -12,15 +12,19 @@ Schema v2 · Kaggle periods: 202601, 202602, 202603, 202604, 202605, 202606, 202
 | Radiant win rate | 52.5% |
 | First match (UTC) | 2026-01-01 00:16 |
 | Last match (UTC) | 2026-08-31 22:41 |
-| Matches dropped (draft length ≠ 24) | 58 of 14,041 |
+| Draft formats | cm24_7.40 (13,983) |
+| Matches dropped (draft follows no known format) | 58 of 14,041 |
+| Heroes appearing for the first time | Largo |
 | Patch labels fixed (patch not yet released) | none |
 
 ## Matches per patch
 
-| Patch id | Version | Matches |
-|---|---|---|
-| 59 | 7.40 | 6,615 |
-| 60 | 7.41 | 7,368 |
+Completeness = share of the source's matches (main_metadata.csv) that have a usable draft.
+
+| Patch id | Version | Draft format | Matches | In source | Completeness |
+|---|---|---|---|---|---|
+| 59 | 7.40 | cm24_7.40 | 6,615 | 6,705 | 98.7% |
+| 60 | 7.41 | cm24_7.40 | 7,368 | 7,493 | 98.3% |
 
 ## Matches per month
 

@@ -1,0 +1,313 @@
+{
+  "year": 2021,
+  "schema_version": "2.1",
+  "periods": [
+    "2021"
+  ],
+  "first_match": "2021-01-01 08:03",
+  "last_match": "2021-12-31 14:03",
+  "matches": 16043,
+  "team_drafts": 32086,
+  "interactions": 385032,
+  "picks": 160430,
+  "bans": 224602,
+  "heroes": 121,
+  "radiant_win_rate": 0.5262,
+  "patches": [
+    {
+      "patch": 47,
+      "version": "7.28",
+      "matches": 4137,
+      "source_matches": 4246,
+      "completeness": 0.9743,
+      "draft_format": "cm24_7.27"
+    },
+    {
+      "patch": 48,
+      "version": "7.29",
+      "matches": 5220,
+      "source_matches": 5453,
+      "completeness": 0.9573,
+      "draft_format": "cm24_7.29"
+    },
+    {
+      "patch": 49,
+      "version": "7.30",
+      "matches": 6686,
+      "source_matches": 6931,
+      "completeness": 0.9647,
+      "draft_format": "cm24_7.30"
+    }
+  ],
+  "draft_formats": {
+    "cm24_7.27": 4137,
+    "cm24_7.29": 5220,
+    "cm24_7.30": 6686
+  },
+  "hero_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    119,
+    120,
+    121,
+    123,
+    126,
+    128,
+    129,
+    135
+  ],
+  "new_heroes": [
+    "Hoodwink",
+    "Dawnbreaker"
+  ],
+  "matches_per_month": {
+    "2021-01": 1551,
+    "2021-02": 1202,
+    "2021-03": 1093,
+    "2021-04": 1278,
+    "2021-05": 1289,
+    "2021-06": 809,
+    "2021-07": 1339,
+    "2021-08": 1252,
+    "2021-09": 1374,
+    "2021-10": 1175,
+    "2021-11": 2207,
+    "2021-12": 1474
+  },
+  "top_picks": [
+    {
+      "hero": "Mars",
+      "count": 5027,
+      "rate": 0.3133
+    },
+    {
+      "hero": "Lion",
+      "count": 3772,
+      "rate": 0.2351
+    },
+    {
+      "hero": "Grimstroke",
+      "count": 3613,
+      "rate": 0.2252
+    },
+    {
+      "hero": "Void Spirit",
+      "count": 3168,
+      "rate": 0.1975
+    },
+    {
+      "hero": "Puck",
+      "count": 3157,
+      "rate": 0.1968
+    },
+    {
+      "hero": "Snapfire",
+      "count": 3035,
+      "rate": 0.1892
+    },
+    {
+      "hero": "Tidehunter",
+      "count": 2808,
+      "rate": 0.175
+    },
+    {
+      "hero": "Lina",
+      "count": 2638,
+      "rate": 0.1644
+    },
+    {
+      "hero": "Rubick",
+      "count": 2489,
+      "rate": 0.1551
+    },
+    {
+      "hero": "Nyx Assassin",
+      "count": 2472,
+      "rate": 0.1541
+    }
+  ],
+  "top_bans": [
+    {
+      "hero": "Puck",
+      "count": 7404,
+      "rate": 0.4615
+    },
+    {
+      "hero": "Mars",
+      "count": 5751,
+      "rate": 0.3585
+    },
+    {
+      "hero": "Timbersaw",
+      "count": 5676,
+      "rate": 0.3538
+    },
+    {
+      "hero": "Monkey King",
+      "count": 5508,
+      "rate": 0.3433
+    },
+    {
+      "hero": "Ursa",
+      "count": 5239,
+      "rate": 0.3266
+    },
+    {
+      "hero": "Invoker",
+      "count": 4982,
+      "rate": 0.3105
+    },
+    {
+      "hero": "Phantom Lancer",
+      "count": 4840,
+      "rate": 0.3017
+    },
+    {
+      "hero": "Nyx Assassin",
+      "count": 4734,
+      "rate": 0.2951
+    },
+    {
+      "hero": "Batrider",
+      "count": 4577,
+      "rate": 0.2853
+    },
+    {
+      "hero": "Beastmaster",
+      "count": 4546,
+      "rate": 0.2834
+    }
+  ],
+  "filtering": {
+    "raw_matches": 16253,
+    "kept_matches": 16043,
+    "dropped_unknown_format_by_actions": {
+      "10": 46,
+      "11": 28,
+      "12": 11,
+      "13": 6,
+      "14": 13,
+      "16": 2,
+      "17": 1,
+      "18": 1,
+      "20": 2,
+      "21": 5,
+      "22": 3,
+      "23": 92
+    },
+    "dropped_no_metadata": 0,
+    "unknown_hero_ids": [],
+    "patch_label_fixes": {}
+  }
+}

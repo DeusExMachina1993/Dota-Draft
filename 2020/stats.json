@@ -1,0 +1,333 @@
+{
+  "year": 2020,
+  "schema_version": "2.1",
+  "periods": [
+    "2020"
+  ],
+  "first_match": "2020-01-01 02:35",
+  "last_match": "2020-12-31 07:54",
+  "matches": 21857,
+  "team_drafts": 43714,
+  "interactions": 500670,
+  "picks": 218570,
+  "bans": 282100,
+  "heroes": 119,
+  "radiant_win_rate": 0.5083,
+  "patches": [
+    {
+      "patch": 42,
+      "version": "7.23",
+      "matches": 850,
+      "source_matches": 859,
+      "completeness": 0.9895,
+      "draft_format": "cm22_7.23"
+    },
+    {
+      "patch": 43,
+      "version": "7.24",
+      "matches": 3016,
+      "source_matches": 3092,
+      "completeness": 0.9754,
+      "draft_format": "cm22_7.23"
+    },
+    {
+      "patch": 44,
+      "version": "7.25",
+      "matches": 2196,
+      "source_matches": 2232,
+      "completeness": 0.9839,
+      "draft_format": "cm22_7.23, cm22_7.25"
+    },
+    {
+      "patch": 45,
+      "version": "7.26",
+      "matches": 5887,
+      "source_matches": 6009,
+      "completeness": 0.9797,
+      "draft_format": "cm22_7.25"
+    },
+    {
+      "patch": 46,
+      "version": "7.27",
+      "matches": 9582,
+      "source_matches": 9796,
+      "completeness": 0.9782,
+      "draft_format": "cm24_7.27"
+    },
+    {
+      "patch": 47,
+      "version": "7.28",
+      "matches": 326,
+      "source_matches": 330,
+      "completeness": 0.9879,
+      "draft_format": "cm24_7.27"
+    }
+  ],
+  "draft_formats": {
+    "cm22_7.23": 3914,
+    "cm22_7.25": 8035,
+    "cm24_7.27": 9908
+  },
+  "hero_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    119,
+    120,
+    121,
+    126,
+    128,
+    129
+  ],
+  "new_heroes": [],
+  "matches_per_month": {
+    "2020-01": 998,
+    "2020-02": 1881,
+    "2020-03": 1792,
+    "2020-04": 2523,
+    "2020-05": 2819,
+    "2020-06": 1974,
+    "2020-07": 1867,
+    "2020-08": 1851,
+    "2020-09": 1297,
+    "2020-10": 1742,
+    "2020-11": 1781,
+    "2020-12": 1332
+  },
+  "top_picks": [
+    {
+      "hero": "Rubick",
+      "count": 6825,
+      "rate": 0.3123
+    },
+    {
+      "hero": "Ember Spirit",
+      "count": 4691,
+      "rate": 0.2146
+    },
+    {
+      "hero": "Void Spirit",
+      "count": 4568,
+      "rate": 0.209
+    },
+    {
+      "hero": "Mars",
+      "count": 4411,
+      "rate": 0.2018
+    },
+    {
+      "hero": "Tiny",
+      "count": 4023,
+      "rate": 0.1841
+    },
+    {
+      "hero": "Clockwerk",
+      "count": 3938,
+      "rate": 0.1802
+    },
+    {
+      "hero": "Phoenix",
+      "count": 3848,
+      "rate": 0.1761
+    },
+    {
+      "hero": "Snapfire",
+      "count": 3825,
+      "rate": 0.175
+    },
+    {
+      "hero": "Grimstroke",
+      "count": 3761,
+      "rate": 0.1721
+    },
+    {
+      "hero": "Nature's Prophet",
+      "count": 3745,
+      "rate": 0.1713
+    }
+  ],
+  "top_bans": [
+    {
+      "hero": "Timbersaw",
+      "count": 9073,
+      "rate": 0.4151
+    },
+    {
+      "hero": "Batrider",
+      "count": 7995,
+      "rate": 0.3658
+    },
+    {
+      "hero": "Ember Spirit",
+      "count": 7664,
+      "rate": 0.3506
+    },
+    {
+      "hero": "Void Spirit",
+      "count": 7140,
+      "rate": 0.3267
+    },
+    {
+      "hero": "Mars",
+      "count": 5823,
+      "rate": 0.2664
+    },
+    {
+      "hero": "Death Prophet",
+      "count": 5781,
+      "rate": 0.2645
+    },
+    {
+      "hero": "Morphling",
+      "count": 5301,
+      "rate": 0.2425
+    },
+    {
+      "hero": "Phoenix",
+      "count": 5242,
+      "rate": 0.2398
+    },
+    {
+      "hero": "Slark",
+      "count": 5213,
+      "rate": 0.2385
+    },
+    {
+      "hero": "Beastmaster",
+      "count": 5131,
+      "rate": 0.2348
+    }
+  ],
+  "filtering": {
+    "raw_matches": 22153,
+    "kept_matches": 21857,
+    "dropped_unknown_format_by_actions": {
+      "10": 68,
+      "11": 27,
+      "12": 16,
+      "13": 8,
+      "14": 16,
+      "15": 5,
+      "16": 3,
+      "17": 1,
+      "18": 8,
+      "20": 5,
+      "21": 93,
+      "22": 1,
+      "23": 45
+    },
+    "dropped_no_metadata": 0,
+    "unknown_hero_ids": [],
+    "patch_label_fixes": {}
+  }
+}

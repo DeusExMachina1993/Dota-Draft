@@ -1,0 +1,990 @@
+{
+  "description": "Captains Mode draft formats in DOTA-Draft. Every .inter row has draft_format:token (= name) and timestamp:float (= slot). team 1 = the team that makes the first draft action (first_team:float = 1 on its rows), team 2 = the other team. Formats are detected from the data: the pick/ban order used by most matches of a patch.",
+  "formats": [
+    {
+      "name": "cm22_7.23",
+      "actions": 22,
+      "picks_per_team": 5,
+      "bans_per_team": 6,
+      "patches": [
+        {
+          "patch": 42,
+          "version": "7.23"
+        },
+        {
+          "patch": 43,
+          "version": "7.24"
+        },
+        {
+          "patch": 44,
+          "version": "7.25"
+        }
+      ],
+      "order": "b1 b2 b1 b2 b1 b2 P1 P2 P2 P1 b1 b2 b1 b2 P2 P1 P2 P1 b2 b1 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 8,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 9,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 13,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 20,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm22_7.25",
+      "actions": 22,
+      "picks_per_team": 5,
+      "bans_per_team": 6,
+      "patches": [
+        {
+          "patch": 44,
+          "version": "7.25"
+        },
+        {
+          "patch": 45,
+          "version": "7.26"
+        }
+      ],
+      "order": "b1 b2 b1 b2 b1 b2 b1 b2 P1 P2 P2 P1 b1 b2 P2 P1 P2 P1 b2 b1 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 7,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 8,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 9,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 10,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 11,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 12,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 13,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 20,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm24_7.27",
+      "actions": 24,
+      "picks_per_team": 5,
+      "bans_per_team": 7,
+      "patches": [
+        {
+          "patch": 46,
+          "version": "7.27"
+        },
+        {
+          "patch": 47,
+          "version": "7.28"
+        }
+      ],
+      "order": "b1 b2 b1 b2 P1 P2 P1 P2 b1 b2 b1 b2 b1 b2 P2 P1 P2 P1 b1 b2 b1 b2 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 8,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 9,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 13,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 20,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 22,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 23,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm24_7.29",
+      "actions": 24,
+      "picks_per_team": 5,
+      "bans_per_team": 7,
+      "patches": [
+        {
+          "patch": 48,
+          "version": "7.29"
+        }
+      ],
+      "order": "b1 b2 b1 b2 P1 P2 P2 P1 b1 b2 b1 b2 b1 b2 P2 P1 P2 P1 b1 b2 b1 b2 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 8,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 9,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 13,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 20,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 22,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 23,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm24_7.30",
+      "actions": 24,
+      "picks_per_team": 5,
+      "bans_per_team": 7,
+      "patches": [
+        {
+          "patch": 49,
+          "version": "7.30"
+        },
+        {
+          "patch": 50,
+          "version": "7.31"
+        },
+        {
+          "patch": 51,
+          "version": "7.32"
+        },
+        {
+          "patch": 52,
+          "version": "7.33"
+        }
+      ],
+      "order": "b1 b2 b1 b2 P1 P2 P2 P1 b1 b2 b1 b2 b1 b2 P2 P1 P1 P2 b1 b2 b1 b2 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 8,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 9,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 13,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 20,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 22,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 23,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm24_7.34",
+      "actions": 24,
+      "picks_per_team": 5,
+      "bans_per_team": 7,
+      "patches": [
+        {
+          "patch": 52,
+          "version": "7.33"
+        },
+        {
+          "patch": 53,
+          "version": "7.34"
+        },
+        {
+          "patch": 54,
+          "version": "7.35"
+        },
+        {
+          "patch": 55,
+          "version": "7.36"
+        },
+        {
+          "patch": 56,
+          "version": "7.37"
+        },
+        {
+          "patch": 57,
+          "version": "7.38"
+        },
+        {
+          "patch": 58,
+          "version": "7.39"
+        }
+      ],
+      "order": "b1 b2 b2 b1 b2 b2 b1 P1 P2 b1 b1 b2 P2 P1 P1 P2 P2 P1 b1 b2 b2 b1 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 4,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 5,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 8,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 9,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 13,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 20,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 21,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 22,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 23,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    },
+    {
+      "name": "cm24_7.40",
+      "actions": 24,
+      "picks_per_team": 5,
+      "bans_per_team": 7,
+      "patches": [
+        {
+          "patch": 58,
+          "version": "7.39"
+        },
+        {
+          "patch": 59,
+          "version": "7.40"
+        },
+        {
+          "patch": 60,
+          "version": "7.41"
+        }
+      ],
+      "order": "b1 b1 b2 b2 b1 b2 b2 P1 P2 b1 b1 b2 P2 P1 P1 P2 P2 P1 b1 b2 b1 b2 P1 P2",
+      "slots": [
+        {
+          "slot": 0,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 1,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 2,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 3,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 4,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 5,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 6,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 7,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 8,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 9,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 10,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 11,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 12,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 13,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 14,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 15,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 16,
+          "action": "pick",
+          "team": 2
+        },
+        {
+          "slot": 17,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 18,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 19,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 20,
+          "action": "ban",
+          "team": 1
+        },
+        {
+          "slot": 21,
+          "action": "ban",
+          "team": 2
+        },
+        {
+          "slot": 22,
+          "action": "pick",
+          "team": 1
+        },
+        {
+          "slot": 23,
+          "action": "pick",
+          "team": 2
+        }
+      ]
+    }
+  ]
+}

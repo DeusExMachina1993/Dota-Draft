@@ -1,6 +1,6 @@
 # DOTA-Draft 2025 — statistics
 
-Schema v2 · Kaggle periods: 2025
+Schema v2.1 · Kaggle periods: 2025
 
 | Metric | Value |
 |---|---|
@@ -12,17 +12,21 @@ Schema v2 · Kaggle periods: 2025
 | Radiant win rate | 51.9% |
 | First match (UTC) | 2025-01-01 00:09 |
 | Last match (UTC) | 2025-12-31 23:40 |
-| Matches dropped (draft length ≠ 24) | 385 of 30,178 |
+| Draft formats | cm24_7.34 (28,781), cm24_7.40 (1,012) |
+| Matches dropped (draft follows no known format) | 385 of 30,178 |
+| Heroes appearing for the first time | Ring Master, Kez |
 | Patch labels fixed (patch not yet released) | none |
 
 ## Matches per patch
 
-| Patch id | Version | Matches |
-|---|---|---|
-| 56 | 7.37 | 4,561 |
-| 57 | 7.38 | 6,912 |
-| 58 | 7.39 | 17,309 |
-| 59 | 7.40 | 1,011 |
+Completeness = share of the source's matches (main_metadata.csv) that have a usable draft.
+
+| Patch id | Version | Draft format | Matches | In source | Completeness |
+|---|---|---|---|---|---|
+| 56 | 7.37 | cm24_7.34 | 4,561 | 4,601 | 99.1% |
+| 57 | 7.38 | cm24_7.34 | 6,912 | 7,252 | 95.3% |
+| 58 | 7.39 | cm24_7.34, cm24_7.40 | 17,309 | 17,737 | 97.6% |
+| 59 | 7.40 | cm24_7.40 | 1,011 | 1,031 | 98.1% |
 
 ## Matches per month
 

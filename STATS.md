@@ -1,13 +1,17 @@
 # DOTA-Draft — dataset statistics
 
-**Data through:** 2026-08-31 · **Last match:** 2026-08-31 22:41 UTC · **Kaggle snapshot:** 2026-09-14 · **Release:** v2026.08
+**Data through:** 2026-08-31 · **Last match:** 2026-08-31 22:41 UTC · **Kaggle snapshot:** 2026-09-14 · **Release:** v2026.08.1
 
 | Year | From | Through | Matches | Interactions | Patches |
 |---|---|---|---|---|---|
+| [2020](2020/STATS.md) | 2020-01-01 | 2020-12-31 | 21,857 | 500,670 | 42, 43, 44, 45, 46, 47 |
+| [2021](2021/STATS.md) | 2021-01-01 | 2021-12-31 | 16,043 | 385,032 | 47, 48, 49 |
+| [2022](2022/STATS.md) | 2022-01-01 | 2022-12-31 | 20,875 | 501,000 | 49, 50, 51 |
+| [2023](2023/STATS.md) | 2023-01-01 | 2023-12-31 | 29,453 | 706,872 | 51, 52, 53, 54 |
 | [2024](2024/STATS.md) | 2024-01-01 | 2024-12-31 | 29,327 | 703,848 | 54, 55, 56 |
 | [2025](2025/STATS.md) | 2025-01-01 | 2025-12-31 | 29,793 | 715,032 | 56, 57, 58, 59 |
 | [2026](2026/STATS.md) | 2026-01-01 | 2026-08-31 | 13,983 | 335,592 | 59, 60 |
 
-Total (schema v2 folders): 73,103 matches, 1,754,472 interactions.
+Total (schema v2.1 folders): 161,331 matches, 3,848,046 interactions.
 
 Per-year details: see `<year>/STATS.md`.

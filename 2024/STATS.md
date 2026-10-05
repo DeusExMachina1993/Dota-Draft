@@ -1,6 +1,6 @@
 # DOTA-Draft 2024 — statistics
 
-Schema v2 · Kaggle periods: 2024
+Schema v2.1 · Kaggle periods: 2024
 
 | Metric | Value |
 |---|---|
@@ -12,16 +12,20 @@ Schema v2 · Kaggle periods: 2024
 | Radiant win rate | 50.8% |
 | First match (UTC) | 2024-01-01 00:24 |
 | Last match (UTC) | 2024-12-31 23:26 |
-| Matches dropped (draft length ≠ 24) | 380 of 29,707 |
+| Draft formats | cm24_7.34 (29,327) |
+| Matches dropped (draft follows no known format) | 380 of 29,707 |
+| Heroes appearing for the first time | - |
 | Patch labels fixed (patch not yet released) | 57->56: 643 |
 
 ## Matches per patch
 
-| Patch id | Version | Matches |
-|---|---|---|
-| 54 | 7.35 | 11,920 |
-| 55 | 7.36 | 6,057 |
-| 56 | 7.37 | 11,350 |
+Completeness = share of the source's matches (main_metadata.csv) that have a usable draft.
+
+| Patch id | Version | Draft format | Matches | In source | Completeness |
+|---|---|---|---|---|---|
+| 54 | 7.35 | cm24_7.34 | 11,920 | 12,382 | 96.3% |
+| 55 | 7.36 | cm24_7.34 | 6,057 | 6,133 | 98.8% |
+| 56 | 7.37 | cm24_7.34 | 11,350 | 11,497 | 98.7% |
 
 ## Matches per month
 
